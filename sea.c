@@ -1,10 +1,7 @@
-//Same result.
-
 #include <stdio.h>
 
 int main(void) {
-    printf("from sea to ");
-    printf("shining C");
-    printf("\n");
+    printf("from sea\n");
+    printf("to shining\nC\n");
     return 0;
 }
