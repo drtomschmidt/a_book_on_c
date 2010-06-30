@@ -1,4 +1,4 @@
-/* The distance of a marathon in kilometers. */
+/* The distance of a marathon in kilometers, while fooling with integer division. */
 
 #include <stdio.h>
 
@@ -8,7 +8,7 @@ int main(void) {
 
     miles = 26;
     yards = 385;
-    kilometers = 1.609 * (miles + yards / 1760.0);
+    kilometers = 1.609 * (miles + yards / 1760);
     printf("\nA marathon is %f kilometers.\n\n", kilometers);
     return 0;
 }
