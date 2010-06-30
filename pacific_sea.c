@@ -1,4 +1,4 @@
-/* Measuring the Pacific Sea. */
+/* Why'd they choose 22? */
 
 #include "pacific_sea.h"
 
@@ -13,9 +13,9 @@ int main(void) {
     sq_inches = SQ_INCHES_PER_SQ_FOOT * sq_feet;
     acres = ACRES_PER_SQ_MILE * sq_miles;
     printf("In other units of measure this is:\n\n");
-    printf("%22.7e acres\n", acres);
-    printf("%22.7e square miles\n", sq_miles);
-    printf("%22.7e square feet\n", sq_feet);
-    printf("%22.7e square inches\n", sq_inches);
+    printf("%11.7e acres\n", acres);
+    printf("%11.7e square miles\n", sq_miles);
+    printf("%11.7e square feet\n", sq_feet);
+    printf("%11.7e square inches\n", sq_inches);
     return 0;
 }
