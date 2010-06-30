@@ -1,8 +1,8 @@
-//Why is there a trailing 0?
+//Works. Why the lt/gt signs?
 
 #define     PI      3.14159
 
-#include <stdio.h>
+#include "stdio.h"
 
 int main(void) {
     printf("PI = %f\n", PI);
