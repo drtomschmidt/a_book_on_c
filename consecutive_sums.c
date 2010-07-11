@@ -3,9 +3,8 @@
 int main(void) {
     int     i = 1, sum = 0;
 
-    while (i <= 5) {
+    for (i=1; i <= 5; ++i) {
         sum += i;
-        i++; // This is no different.
     }
 
     printf("sum = %d\n", sum);
