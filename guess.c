@@ -1,4 +1,5 @@
-/*  Got a C version of guess the number working! Too bad the right number is hardcoded, since I don't know the math functions yet.
+/*  Got a C version of guess the number working! 
+    Too bad the right number is hardcoded, since I don't know the math functions yet.
     Python 3 version: http://github.com/mblair/IYOCGwP/blob/master/chap4/guess.py */
 
 #include <stdio.h>
