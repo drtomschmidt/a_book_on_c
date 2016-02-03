@@ -5,7 +5,7 @@ int main(void)
 {
 	int i, j, score[CLASS_SIZE], sum = 0, tmp;
 
-	prinf("Input %d scores: ", CLASS_SIZE);
+	printf("Input %d scores: ", CLASS_SIZE);
 	for(i = 0; i < CLASS_SIZE; ++i) {
 		scanf("%d", &score[i]);
 		sum += score[i];
